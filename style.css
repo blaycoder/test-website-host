@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --header-bg-color: green;
+    --nav-link-color: #ffffff;
+}
+
+header{
+    background-color: var(--header-bg-color);
+}
+
+nav a{
+    color: var(--nav-link-color);
+    padding: 20px;
+}
+
+nav, main{
+    max-width: 1250px;
+    padding: 20px
+}
